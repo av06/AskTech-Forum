@@ -34,7 +34,7 @@ return [
     |
     */
 
-    'headline_logo' => '/vendor/devdojo/chatter/assets/images/logo-light.png',
+    'headline_logo' => 'abc.jpg',
 
     /*
     |--------------------------------------------------------------------------
@@ -82,7 +82,7 @@ return [
     |
     */
 
-    'sidebar_in_discussion_view' => false,
+    'sidebar_in_discussion_view' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -147,7 +147,7 @@ return [
     */
 
     'security' => [
-        'limit_time_between_posts' => true, //
+        'limit_time_between_posts' => false, //
         'time_between_posts'       => 1, // In minutes
     ],
 

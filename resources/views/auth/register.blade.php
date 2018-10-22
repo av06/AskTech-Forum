@@ -1,6 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+            body {
+                background-image: url(/bg5.png);
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100%;
+                margin: 0;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+</style>            
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
